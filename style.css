@@ -5,7 +5,25 @@ html, body {
   background-color: #7393B3;
   color:white;
   font-family: 'Kanit', sans-serif;
-  padding:5px;
+  padding-right:5px;
+  padding-left:5px;
+  overflow-x:  hidden;
+  overflow-y: auto;
+  overflow-y: overlay;
+}
+::-webkit-scrollbar {
+    width: 20px;
+	opacity: 50%;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px lightblue; 
+	border-radius:15px;
 }
 a {
 	color: whitesmoke;
@@ -17,6 +35,8 @@ button {
   border-color:white;
   color:white;
   border-style:solid;
+  height:35px; 
+  width: 75px;
   border-radius:25px;
   background-color:#5F9EA0;
   font-family: 'Kanit', sans-serif;
